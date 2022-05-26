@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Blind_Printing</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Result Folder\**" />
+    <EmbeddedResource Remove="Result Folder\**" />
+    <None Remove="Result Folder\**" />
+    <Page Remove="Result Folder\**" />
+  </ItemGroup>
+
+</Project>
